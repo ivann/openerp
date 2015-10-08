@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
@@ -39,17 +39,17 @@ This module is the localization of OpenERP for Russian Federation.
     'author': 'OpenERP Russian Localization Team, Transparent Technologies, CodUP',
     'website': 'https://launchpad.net/~openerp-l10n-ru, http://tterp.ru, http://codup.com',
     'images': ['images/flag_ru.png'],
-    'depends': ['account'],
+    'depends': ['account', 'account_chart'],
     'data': [
-        'data/account_chart_template.xml',
         'data/account.account.template.csv',
+        'data/account_chart_template.xml',
         'data/okv.xml',
         'data/res_country_data.xml',
-        'data/account.tax.template.csv',
+        'data/account.tax.code.template.csv',
         'data/res.country.state.csv',
-        'data/res.partner.title.csv',
+		'data/res.partner.title.csv',
         'l10n_ru_view.xml',
-        'data/account_chart_template.yml',
+        'l10n_ru_wizard.xml',
     ],
     'installable': True,
 }
